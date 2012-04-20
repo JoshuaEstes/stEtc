@@ -1,0 +1,14 @@
+{
+  "name": "JoshuaEstes/stEtc",
+  "type": "library",
+  "description": "Manage /etc/hosts for right now, other tasks maybe?",
+  "authors": [
+    {
+      "name": "Joshua Estes"
+    }
+  ],
+  "dist": {
+    "url": "git@github.com:JoshuaEstes/stEtc.git",
+    "type": "git"
+  }
+}
