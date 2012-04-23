@@ -15,8 +15,8 @@ class AddCommand extends Command
     $this
       ->setName('etc:hosts:add')
       ->setDescription('add an entry in your hosts file')
-      ->addArgument('ip', InputArgument::OPTIONAL, "IP Address, example 127.0.0.1")
-      ->addArgument('hostname', InputArgument::OPTIONAL, "Hostname(s) seperated by spaces");
+      ->addArgument('hostname', InputArgument::OPTIONAL, "Hostname(s) seperated by spaces")
+      ->addArgument('ip', InputArgument::OPTIONAL, "IP Address, example 127.0.0.1",'127.0.0.1');
   }
 
   protected function execute(InputInterface $input, OutputInterface $output)

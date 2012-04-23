@@ -1,14 +1,20 @@
 {
-  "name": "JoshuaEstes/stEtc",
-  "type": "library",
-  "description": "Manage /etc/hosts for right now, other tasks maybe?",
-  "authors": [
-    {
-      "name": "Joshua Estes"
+      "name": "JoshuaEstes/stEtc",
+      "type": "library",
+      "description": "Manage /etc/hosts for right now, other tasks maybe?",
+      "authors": [
+        {
+          "name": "Joshua Estes"
+        }
+      ],
+      "dist": {
+        "url": "git@github.com:JoshuaEstes/stEtc.git",
+        "type": "git"
+      },
+    "require": {
+        "php": ">=5.3.2",
+        "JoshuaEstes/ServerTools": "*",
+        "symfony/console": "*",
+        "symfony/process": "*"
     }
-  ],
-  "dist": {
-    "url": "git@github.com:JoshuaEstes/stEtc.git",
-    "type": "git"
-  }
 }
